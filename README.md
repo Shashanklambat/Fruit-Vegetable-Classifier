@@ -1,11 +1,10 @@
 # 📦 Fruit & Vegetable Image Classifier
-=========================================
 
 A deep learning–based image classification project that identifies **fruits** and **vegetables** from images. This model can classify input images, run predictions on sample images, and even recognize fruits/vegetables using a **live camera feed**.
 
 
 # 🧠 Project Overview
-======================
+
 This project uses a trained neural network model (`classifier.h5`) to classify different fruits and vegetables.
 
 You can:
@@ -17,7 +16,6 @@ You can:
 
 
 # 📁 Project Structure
-------------------------
 
 Fruit_Vegetable_Classifier/
 │
@@ -34,7 +32,6 @@ Fruit_Vegetable_Classifier/
 
 
 # 🚀 How to Run the Project
------------------------------
 
 ### **1\. Install Dependencies**
 
@@ -46,7 +43,6 @@ Install required libraries:
 
 
 ### 2\. Run Image Classification on a File ###
-------------------------------------------
 
 **python image_check.py**
 
@@ -56,15 +52,15 @@ Enter image path: Images/apple.png
 
 Output will show predicted fruit/vegetable name.
 
+
 ### 3\. Real-Time Classification with Webcam ###
---------------------------------------------
 
 **python live_camera_check.py**
 
 A webcam window will open and predictions will appear in real time.
 
-🧪 **Model Details**
---------------------
+
+🧪 Model Details
 
 *   Format: **Keras .h5 model**
     
@@ -75,8 +71,7 @@ A webcam window will open and predictions will appear in real time.
 *   Output: Classified label among supported categories
     
 
-📦 **Dependencies**
--------------------
+📦 Dependencies
 
 Your requirements.txt contains all necessary libraries. Typical dependencies include:
 
@@ -97,7 +92,6 @@ Install using:
 
 
 # 🖼 Sample Prediction Images
----------------------------
 
 The Images/ folder contains sample test images:
 
@@ -113,7 +107,6 @@ You can replace or add more images to test the classifier.
 
 
 # 🎯 Future Improvements
---------------------------
 
 Potential upgrades:
 
@@ -127,7 +120,6 @@ Potential upgrades:
     
 
 # 👤 Author
--------------
 
 **Shashank Lambat**  
 Fruit & Vegetable Classifier Project  
