@@ -15,21 +15,6 @@ You can:
 ---
 
 
-# 📁 Project Structure
-
-Fruit_Vegetable_Classifier/
-│
-├── classifier.h5 # Trained model
-├── image_check.py # Script: classify a single image
-├── live_camera_check.py # Script: real-time classification via webcam
-├── requirements.txt # Python dependencies
-│
-└── Images/ # Sample test images
-├── apple.png
-├── banana.png
-├── cauliflower.png
-└── cucumber.png
-
 
 # 🚀 How to Run the Project
 
@@ -42,6 +27,7 @@ Install required libraries:
 **pip install -r requirements.txt**
 
 
+
 ### 2\. Run Image Classification on a File ###
 
 **python image_check.py**
@@ -51,6 +37,7 @@ You will be prompted to enter the path of an image.Example input:
 Enter image path: Images/apple.png
 
 Output will show predicted fruit/vegetable name.
+
 
 
 ### 3\. Real-Time Classification with Webcam ###
@@ -70,6 +57,7 @@ A webcam window will open and predictions will appear in real time.
     
 *   Output: Classified label among supported categories
     
+
 
 📦 Dependencies
 
@@ -91,6 +79,7 @@ Install using:
 **pip install -r requirements.txt**
 
 
+
 # 🖼 Sample Prediction Images
 
 The Images/ folder contains sample test images:
@@ -106,6 +95,7 @@ The Images/ folder contains sample test images:
 You can replace or add more images to test the classifier.
 
 
+
 # 🎯 Future Improvements
 
 Potential upgrades:
@@ -118,6 +108,7 @@ Potential upgrades:
     
 *   Use TensorFlow Lite for edge devices
     
+
 
 # 👤 Author
 
